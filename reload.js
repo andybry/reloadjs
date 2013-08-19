@@ -23,6 +23,7 @@
       $.ajax({
         url: thisPage,
         cache: false,
+        type: 'HEAD', 
         success: function(data, status_message, response) {
           var lastModified = response.getResponseHeader("Last-Modified");
           if(cachedTimes[thisPage] === undefined) { 
@@ -47,6 +48,7 @@
         $.ajax({
           url: stylesheetUrl,
           cache: false,
+          type: 'HEAD', 
           success: function(data, status_message, response) {
             var lastModified = response.getResponseHeader("Last-Modified");
             if(cachedTimes[stylesheetUrl] === undefined) { 
