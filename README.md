@@ -1,6 +1,6 @@
 # Reloadjs
 
-Reoload.js is a script for automatically reloading CSS and HTML from a Web server whenever a change is made to the remote files. In addition it will run the contents of one JavaScript file.
+Reload.js is a script for automatically reloading CSS and HTML from a Web server whenever a change is made to the remote files. In addition it will run the contents of one JavaScript file.
 
 Reload.js's main purpose is for running relatively small amounts of JavaScript, HTML and CSS at the same time as writing it across multiple browsers at the same time.
 
