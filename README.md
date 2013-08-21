@@ -39,4 +39,11 @@ The whole repository serves as a demo. If you clone it into a webserver and requ
 
 To add the script to a page automatically use this bookmarklet (i.e. bookmark this link below and then open the bookmark whenever you want to use reload.js):
 
-[Bookmarklet](javascript:(function(\)%7Bvar scriptToAdd%3Dwindow.document.createElement("script"\)%3BscriptToAdd.setAttribute("src","https://raw.github.com/andybry/reloadjs/master/reload.js"\)%3Bwindow.document.getElementsByTagName("head"\)%5B0%5D.appendChild(scriptToAdd\)%3B%7D\)(\)%3B)
+<a href="javascript:
+  var scriptToAdd = window.document.createElement('script');
+  scriptToAdd.setAttribute(
+    'src',
+    'https://raw.github.com/andybry/reloadjs/master/reload.js'
+  );
+  window.document.getElementsByTagName('head')[0].appendChild(scriptToAdd);
+">Bookmarklet</a>
