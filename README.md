@@ -34,16 +34,3 @@ The updates will affect any browsers that have requested the page. This makes it
 ### The demo
 
 The whole repository serves as a demo. If you clone it into a webserver and request the index.htm then any changes to the HTML, CSS and JavaScript are automatically pulled to the open browsers as above.
-
-### Bookmarklet
-
-To add the script to a page automatically use this bookmarklet (i.e. bookmark this link below and then open the bookmark whenever you want to use reload.js):
-
-<a href="javascript:
-  var scriptToAdd = window.document.createElement('script');
-  scriptToAdd.setAttribute(
-    'src',
-    'https://raw.github.com/andybry/reloadjs/master/reload.js'
-  );
-  window.document.getElementsByTagName('head')[0].appendChild(scriptToAdd);
-">Bookmarklet</a>
